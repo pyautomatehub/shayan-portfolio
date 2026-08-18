@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Shayan Ali Mughal — Python, AI Assistants, Automation and API Developer.">
+
+    <title>Shayan Ali Mughal — Creative Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- CURSOR -->
+<div class="cursor"></div>
+<div class="cursor-dot"></div>
+
+<!-- LOADER -->
+<div class="loader" id="loader">
+    <div class="loader-box">
+        <div class="loader-logo">SAM<span>.</span></div>
+
+        <div class="loader-line">
+            <span id="loaderBar"></span>
+        </div>
+
+        <div class="loader-meta">
+            <span>SYSTEM INITIALIZING</span>
+            <b id="loaderPercent">00%</b>
+        </div>
+    </div>
+</div>
+
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        SAM<span>.</span>
+    </a>
+
+    <nav class="nav-links">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+    </nav>
+
+    <a href="asset/resume.pdf"
+       target="_blank"
+       class="resume-btn">
+        RESUME ↗
+    </a>
+
+    <button class="menu-button" id="menuButton" aria-label="Menu">
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+
+    <div class="mobile-menu-number">MENU / 00</div>
+
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT</a>
+    <a href="#skills">SKILLS</a>
+    <a href="#projects">PROJECTS</a>
+    <a href="#process">PROCESS</a>
+    <a href="#experience">EXPERIENCE</a>
+    <a href="#contact">CONTACT</a>
+
+</div>
+
+
+<!-- SOCIAL -->
+<div class="social-bar">
+    <a href="https://github.com/pyautomatehub"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="GitHub">
+    GH
+</a>
+     <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/shayan-mughal-5088b342a/"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="LinkedIn">
+    <a href="https://www.instagram.com/codewithshayan/"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Instagram">
+    IG
+</a>
+</div>
+
+
+<main>
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero" id="home">
+
+    <div class="hero-noise"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-grid"></div>
+
+    <div class="hero-container">
+
+        <div class="hero-copy reveal">
+
+            <div class="eyebrow">
+                <span></span>
+                PYTHON • AI • AUTOMATION
+            </div>
+
+            <div class="hero-kicker">
+                CREATIVE DEVELOPER / 2026
+            </div>
+
+            <h1>
+                I BUILD
+                <span>INTELLIGENT</span>
+                DIGITAL
+                SYSTEMS.
+            </h1>
+
+            <p class="hero-description">
+                I'm <strong>Shayan Ali Mughal</strong> —
+                a developer building Python automation,
+                AI assistants, APIs and experimental
+                digital systems.
+            </p>
+
+            <div class="hero-actions">
+
+                <a href="#projects" class="btn btn-white">
+                    VIEW MY WORK
+                    <span>↗</span>
+                </a>
+
+                <a href="#contact" class="btn btn-outline">
+                    LET'S TALK
+                </a>
+
+            </div>
+
+            <div class="hero-mini-stats">
+
+                <div>
+                    <strong>01</strong>
+                    <span>AI FLAGSHIP</span>
+                </div>
+
+                <div>
+                    <strong>04+</strong>
+                    <span>CORE SKILLS</span>
+                </div>
+
+                <div>
+                    <strong>∞</strong>
+                    <span>IDEAS</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- PHOTO -->
+
+        <div class="hero-visual reveal">
+
+            <div class="visual-number">
+                001
+            </div>
+
+            <div class="visual-line"></div>
+
+            <div class="photo-orbit orbit-one"></div>
+            <div class="photo-orbit orbit-two"></div>
+
+            <div class="photo-frame">
+
+                <div class="photo-corner corner-tl"></div>
+                <div class="photo-corner corner-br"></div>
+
+                <img
+                    src="asset/shayan.jpg"
+                    alt="Shayan Ali Mughal"
+                >
+
+                <div class="photo-gradient"></div>
+
+                <div class="photo-info">
+                    <span>01</span>
+                    <strong>SHAYAN ALI MUGHAL</strong>
+                </div>
+
+            </div>
+
+            <div class="floating-tag tag-python">
+                <b>PY</b>
+                PYTHON
+            </div>
+
+            <div class="floating-tag tag-ai">
+                <b>AI</b>
+                INTELLIGENCE
+            </div>
+
+            <div class="floating-tag tag-status">
+                <i></i>
+                AVAILABLE
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-bottom">
+        <span>SCROLL TO EXPLORE</span>
+        <div></div>
+        <span>01 — 07</span>
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="about section" id="about">
+
+    <div class="section-marker">
+        01 / ABOUT
+    </div>
+
+    <div class="container about-grid">
+
+        <div class="about-photo reveal">
+
+            <div class="about-photo-frame">
+
+                <img
+                    src="asset/shayan.jpg"
+                    alt="Shayan Ali Mughal"
+                >
+
+                <div class="about-photo-overlay"></div>
+
+                <div class="about-photo-label">
+                    SHAYAN / DEVELOPER
+                </div>
+
+            </div>
+
+            <div class="about-red-block"></div>
+
+        </div>
+
+
+        <div class="about-copy reveal">
+
+            <div class="eyebrow dark">
+                <span></span>
+                WHO I AM
+            </div>
+
+            <h2>
+                TURNING
+                <em>IDEAS</em>
+                INTO
+                <em>SYSTEMS.</em>
+            </h2>
+
+            <p>
+                I'm Shayan Ali Mughal, a developer focused on
+                creating useful, intelligent and visually
+                impressive digital experiences.
+            </p>
+
+            <p>
+                I work with Python, automation, APIs and
+                AI systems. My main experimental project is
+                <strong>J.A.R.V.I.S.</strong> — a personal AI
+                assistant built around voice, memory and
+                computer automation.
+            </p>
+
+            <a href="asset/resume.pdf"
+               target="_blank"
+               class="text-link">
+                VIEW RESUME <span>↗</span>
+            </a>
+
+            <div class="about-facts">
+
+                <div>
+                    <b>01</b>
+                    <span>FLAGSHIP<br>AI SYSTEM</span>
+                </div>
+
+                <div>
+                    <b>04+</b>
+                    <span>CORE<br>SKILLS</span>
+                </div>
+
+                <div>
+                    <b>2026</b>
+                    <span>CURRENT<br>JOURNEY</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     MARQUEE
+===================================================== -->
+
+<div class="marquee">
+
+    <div class="marquee-track">
+        PYTHON <span>✦</span>
+        AI ASSISTANTS <span>✦</span>
+        AUTOMATION <span>✦</span>
+        API INTEGRATION <span>✦</span>
+        J.A.R.V.I.S. <span>✦</span>
+
+        PYTHON <span>✦</span>
+        AI ASSISTANTS <span>✦</span>
+        AUTOMATION <span>✦</span>
+        API INTEGRATION <span>✦</span>
+        J.A.R.V.I.S. <span>✦</span>
+    </div>
+
+</div>
+
+
+<!-- =====================================================
+     SKILLS
+===================================================== -->
+
+<section class="skills section dark" id="skills">
+
+    <div class="section-marker">
+        02 / SKILLS
+    </div>
+
+    <div class="container">
+
+        <div class="section-head reveal">
+
+            <div class="eyebrow">
+                <span></span>
+                MY TOOLKIT
+            </div>
+
+            <h2>
+                WHAT I
+                <span>BUILD WITH.</span>
+            </h2>
+
+            <p>
+                A growing technical toolkit focused on
+                software, automation and artificial intelligence.
+            </p>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <article class="skill-card reveal">
+
+                <div class="skill-number">01</div>
+                <div class="skill-symbol">PY</div>
+
+                <h3>PYTHON</h3>
+
+                <p>
+                    Automation, scripting, applications,
+                    backend logic and intelligent systems.
+                </p>
+
+                <div class="skill-bottom">
+                    <span>CORE SKILL</span>
+                    <b>90%</b>
+                </div>
+
+                <div class="skill-progress">
+                    <span style="--width:90%"></span>
+                </div>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-number">02</div>
+                <div class="skill-symbol">AI</div>
+
+                <h3>AI ASSISTANTS</h3>
+
+                <p>
+                    Voice interaction, memory systems,
+                    intelligent responses and workflows.
+                </p>
+
+                <div class="skill-bottom">
+                    <span>CORE SKILL</span>
+                    <b>85%</b>
+                </div>
+
+                <div class="skill-progress">
+                    <span style="--width:85%"></span>
+                </div>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-number">03</div>
+                <div class="skill-symbol">AUTO</div>
+
+                <h3>AUTOMATION</h3>
+
+                <p>
+                    Turning repetitive tasks into efficient
+                    and reliable automated workflows.
+                </p>
+
+                <div class="skill-bottom">
+                    <span>CORE SKILL</span>
+                    <b>88%</b>
+                </div>
+
+                <div class="skill-progress">
+                    <span style="--width:88%"></span>
+                </div>
+
+            </article>
+
+
+            <article class="skill-card reveal">
+
+                <div class="skill-number">04</div>
+                <div class="skill-symbol">API</div>
+
+                <h3>API INTEGRATION</h3>
+
+                <p>
+                    Connecting applications, services and
+                    data to create powerful digital systems.
+                </p>
+
+                <div class="skill-bottom">
+                    <span>CORE SKILL</span>
+                    <b>82%</b>
+                </div>
+
+                <div class="skill-progress">
+                    <span style="--width:82%"></span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     JARVIS
+===================================================== -->
+
+<section class="jarvis">
+
+    <div class="jarvis-glow"></div>
+
+    <div class="container jarvis-grid">
+
+        <div class="jarvis-copy reveal">
+
+            <div class="eyebrow">
+                <span></span>
+                FLAGSHIP PROJECT
+            </div>
+
+            <h2>
+                J.A.R.V.I.S.
+            </h2>
+
+            <div class="red-line"></div>
+
+            <p>
+                A personal AI assistant engineered to interact
+                through voice, understand commands, control a
+                computer and maintain persistent memory.
+            </p>
+
+            <div class="jarvis-buttons">
+
+                <a href="#projects" class="btn btn-red">
+                    EXPLORE SYSTEM ↗
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="jarvis-screen reveal">
+
+            <div class="screen-top">
+                <span>J.A.R.V.I.S. / CORE</span>
+                <b>● ONLINE</b>
+            </div>
+
+            <div class="reactor-wrap">
+
+                <div class="reactor-ring r1"></div>
+                <div class="reactor-ring r2"></div>
+                <div class="reactor-ring r3"></div>
+                <div class="reactor-ring r4"></div>
+
+                <div class="reactor-core">
+                    <span>AI</span>
+                </div>
+
+            </div>
+
+            <div class="screen-data">
+
+                <div>
+                    <span>VOICE</span>
+                    <b>ACTIVE</b>
+                </div>
+
+                <div>
+                    <span>MEMORY</span>
+                    <b>98%</b>
+                </div>
+
+                <div>
+                    <span>AUTOMATION</span>
+                    <b>READY</b>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROJECTS
+===================================================== -->
+
+<section class="projects section" id="projects">
+
+    <div class="section-marker">
+        03 / PROJECTS
+    </div>
+
+    <div class="container">
+
+        <div class="section-head reveal">
+
+            <div class="eyebrow dark">
+                <span></span>
+                SELECTED WORK
+            </div>
+
+            <h2>
+                THINGS I'VE
+                <span>BUILT.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="project-stack">
+
+            <article class="project-card reveal">
+
+                <div class="project-top">
+                    <span>01 / AI</span>
+                    <span>2026</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div>
+                        <small>ARTIFICIAL INTELLIGENCE</small>
+
+                        <h3>
+                            J.A.R.V.I.S.
+                        </h3>
+
+                        <p>
+                            Personal AI assistant with voice
+                            interaction, memory, computer
+                            automation and intelligent responses.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>PYTHON</span>
+                            <span>AI</span>
+                            <span>VOICE</span>
+                            <span>AUTOMATION</span>
+                        </div>
+                    </div>
+
+                    <div class="project-big-arrow">↗</div>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card red-project reveal">
+
+                <div class="project-top">
+                    <span>02 / AUTOMATION</span>
+                    <span>2026</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div>
+                        <small>AUTOMATION SYSTEM</small>
+
+                        <h3>
+                            PYTHON
+                            AUTOMATION.
+                        </h3>
+
+                        <p>
+                            Custom Python systems designed to
+                            eliminate repetitive tasks and
+                            improve productivity.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>PYTHON</span>
+                            <span>SCRIPTS</span>
+                            <span>AUTOMATION</span>
+                        </div>
+                    </div>
+
+                    <div class="project-big-arrow">↗</div>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card reveal">
+
+                <div class="project-top">
+                    <span>03 / SOFTWARE</span>
+                    <span>2026</span>
+                </div>
+
+                <div class="project-content">
+
+                    <div>
+                        <small>DESKTOP SOFTWARE</small>
+
+                        <h3>
+                            DESKTOP
+                            SYSTEMS.
+                        </h3>
+
+                        <p>
+                            Functional desktop applications
+                            designed around practical interfaces
+                            and clean system architecture.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>PYTHON</span>
+                            <span>GUI</span>
+                            <span>SYSTEMS</span>
+                        </div>
+                    </div>
+
+                    <div class="project-big-arrow">↗</div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     PROCESS
+===================================================== -->
+
+<section class="process section dark" id="process">
+
+    <div class="section-marker">
+        04 / PROCESS
+    </div>
+
+    <div class="container">
+
+        <div class="section-head reveal">
+
+            <div class="eyebrow">
+                <span></span>
+                MY PROCESS
+            </div>
+
+            <h2>
+                FROM IDEA
+                <span>TO REALITY.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="process-grid">
+
+            <article class="process-card reveal">
+                <span>01</span>
+                <h3>RESEARCH</h3>
+                <p>
+                    Understand the problem, requirements
+                    and desired outcome.
+                </p>
+            </article>
+
+            <article class="process-card reveal">
+                <span>02</span>
+                <h3>PLAN</h3>
+                <p>
+                    Break the concept into a clear,
+                    scalable technical structure.
+                </p>
+            </article>
+
+            <article class="process-card reveal">
+                <span>03</span>
+                <h3>BUILD</h3>
+                <p>
+                    Write code, connect systems and turn
+                    the concept into something real.
+                </p>
+            </article>
+
+            <article class="process-card reveal">
+                <span>04</span>
+                <h3>REFINE</h3>
+                <p>
+                    Test, optimize and polish every
+                    important detail.
+                </p>
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     EXPERIENCE
+===================================================== -->
+
+<section class="experience section red-bg" id="experience">
+
+    <div class="section-marker black-marker">
+        05 / JOURNEY
+    </div>
+
+    <div class="container experience-grid">
+
+        <div class="experience-title reveal">
+
+            <div class="eyebrow black-eyebrow">
+                <span></span>
+                THE JOURNEY
+            </div>
+
+            <h2>
+                BUILDING.
+                <br>
+                LEARNING.
+                <br>
+                <strong>EVOLVING.</strong>
+            </h2>
+
+        </div>
+
+
+        <div class="experience-list reveal">
+
+            <div class="experience-item">
+
+                <div class="year">2026</div>
+
+                <div>
+                    <h3>J.A.R.V.I.S. DEVELOPMENT</h3>
+
+                    <p>
+                        Designing and engineering a personal
+                        AI assistant architecture with voice,
+                        memory, automation and a custom HUD.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="experience-item">
+
+                <div class="year">NOW</div>
+
+                <div>
+                    <h3>PYTHON & AI DEVELOPMENT</h3>
+
+                    <p>
+                        Experimenting with automation, APIs,
+                        AI systems and creative web experiences.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="contact" id="contact">
+
+    <div class="contact-glow"></div>
+
+    <div class="container contact-container">
+
+        <div class="eyebrow reveal">
+            <span></span>
+            HAVE AN IDEA?
+        </div>
+
+        <h2 class="contact-title reveal">
+            CONTACT
+        </h2>
+
+        <div class="contact-bottom reveal">
+
+            <div>
+
+                <p>
+                    Let's build something
+                    intelligent together.
+                </p>
+
+                <strong>
+                    SHAYAN ALI MUGHAL
+                </strong>
+
+            </div>
+
+            <a href="mailto:shayanxbusiness@gmail.com"
+               class="contact-button">
+                START A CONVERSATION
+                <span>↗</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <div class="footer-logo">
+        SAM<span>.</span>
+    </div>
+
+    <div>
+        © 2026 SHAYAN ALI MUGHAL
+    </div>
+
+    <div>
+        BUILT WITH CODE & CURIOSITY.
+    </div>
+
+</footer>
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
